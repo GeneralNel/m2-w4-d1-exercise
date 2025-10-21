@@ -15,9 +15,15 @@ function createCircle(radius) {
   }
 };
 
-var circle1 = createCircle();
+var circle1 = createCircle(3);
+var circle2 = createCircle(3);
 
 //Write console.log here
+console.log("Area: " + circle1.area());
+console.log("Radius: " + circle1.radius); //undefined
+
+console.log("Circumference: " + circle2.circumference());
+console.log("Diameter: " + circle2.diameter); //undefined
 
 
 //Encapsulation Technique 2: private variables
